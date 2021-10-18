@@ -1801,7 +1801,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		} 
 		#footer-outer, 
 		#nectar_fullscreen_rows > #footer-outer.wpb_row .full-page-inner-wrap { 
-			background-color:#303030!important; 
+			background-color:#0a0a0a!important; 
 		} 
 		#footer-outer #footer-widgets { 
 			border-bottom: none; 
@@ -1859,40 +1859,40 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		  @media only screen and (min-width: 1000px) {
 
 				#header-outer[data-format="centered-menu-bottom-bar"] #top .span_9 #logo {  
-					margin-top: -14px; 
+					margin-top: -18px; 
 				}
 				
 				#header-outer[data-format="centered-menu-bottom-bar"] #top .span_9 nav >ul >li:not(#social-in-menu):not(#nectar-user-account):not(#search-btn):not(.slide-out-widget-area-toggle) > a { 
-					padding-bottom: 28px;  
+					padding-bottom: 36px;  
 				}
 			  
 				#header-outer #logo, 
 				#header-outer .logo-spacing { 
-					margin-top: 28px; 
-					margin-bottom: 28px; 
+					margin-top: 36px; 
+					margin-bottom: 36px; 
 					position: relative; 
 				}
 				
 				 #header-outer.small-nav #logo, 
 				 #header-outer.small-nav .logo-spacing { 
-						margin-top: 15.555555555556px; 
-						margin-bottom: 15.555555555556px; 
+						margin-top: 20px; 
+						margin-bottom: 20px; 
 					
 				} 
 				
 				#header-outer.small-nav #logo img, 
 				#header-outer.small-nav .logo-spacing img { 
-						height: 44px; 
+						height: 18px; 
 				}
 
 			  .material #header-outer:not(.transparent) .bg-color-stripe { 
-					top: 106px; 
-					height: calc(35vh - 106px); 
+					top: 96px; 
+					height: calc(35vh - 96px); 
 				}
 					
 			  .material #header-outer:not(.transparent).small-nav .bg-color-stripe { 
-					top: 75.111111111111px; 
-					height: calc(35vh - 75.111111111111px); 
+					top: 58px; 
+					height: calc(35vh - 58px); 
 				}
 		  }
 			
@@ -1906,7 +1906,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 
 		  #header-outer #logo img, 
 			#header-outer .logo-spacing img { 
-				height: 50px; 
+				height: 24px; 
 			}
 		 #header-outer[data-lhe="animated_underline"] #top nav > ul > li > a,
 		 #top nav > ul > li[class*="button_solid_color"] > a, 
@@ -1936,7 +1936,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			 padding-right: 11px; 
 		 }
 		 #header-space { 
-		 height: 106px;
+		 height: 96px;
 	 }
 	 @media only screen and (max-width: 999px) {
 		 #header-space { 
@@ -2000,7 +2000,12 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		 		height: 24px!important; 
 		 	} 
 
-	 } .portfolio-loading, #ajax-loading-screen .loading-icon, .loading-icon, .pp_loaderIcon { background-image: url(""); } @media only screen and (min-width: 1000px) and (max-width: 1300px) {
+	 }@media only screen and (min-width: 1500px) {
+	 		.material .ocm-effect-wrap.material-ocm-open #boxed { 
+	 			margin-left: auto;
+	 			margin-right: 80px;
+	 		} 
+	 	} .portfolio-loading, #ajax-loading-screen .loading-icon, .loading-icon, .pp_loaderIcon { background-image: url(""); } @media only screen and (min-width: 1000px) and (max-width: 1300px) {
 	    .nectar-slider-wrap[data-full-width="true"] .swiper-slide .content h2, 
 	    .nectar-slider-wrap[data-full-width="boxed-full-width"] .swiper-slide .content h2,
 	    .full-width-content .vc_span12 .swiper-slide .content h2 {
