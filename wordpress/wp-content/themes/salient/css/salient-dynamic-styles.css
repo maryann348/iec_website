@@ -1450,9 +1450,9 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
     body[data-header-format="left-header"].material #search-outer, 
 		body.material[data-header-format="centered-menu-bottom-bar"] #page-header-wrap.fullscreen-header,
 		#header-outer #mobile-menu:before { 
-			background-color:#111111; 
+			background-color:#0a0a0a; 
 		}body #header-outer, body[data-header-color="dark"] #header-outer { 
-				 background-color: rgba(17,17,17,100); 
+				 background-color: rgba(10,10,10,100); 
 			 }.material #header-outer:not(.transparent) .bg-color-stripe { 
 				 display: none; 
 			 }
@@ -1817,17 +1817,17 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 				
 				#header-outer.small-nav #logo img, 
 				#header-outer.small-nav .logo-spacing img { 
-						height: 24px; 
+						height: 44px; 
 				}
 
 			  .material #header-outer:not(.transparent) .bg-color-stripe { 
-					top: 86px; 
-					height: calc(35vh - 86px); 
+					top: 106px; 
+					height: calc(35vh - 106px); 
 				}
 					
 			  .material #header-outer:not(.transparent).small-nav .bg-color-stripe { 
-					top: 55.111111111111px; 
-					height: calc(35vh - 55.111111111111px); 
+					top: 75.111111111111px; 
+					height: calc(35vh - 75.111111111111px); 
 				}
 		  }
 			
@@ -1841,7 +1841,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 
 		  #header-outer #logo img, 
 			#header-outer .logo-spacing img { 
-				height: 30px; 
+				height: 50px; 
 			}
 		 #header-outer[data-lhe="animated_underline"] #top nav > ul > li > a,
 		 #top nav > ul > li[class*="button_solid_color"] > a, 
@@ -1870,19 +1870,8 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			 padding-left: 7px; 
 			 padding-right: 7px; 
 		 }
-		 #header-outer #top .sf-menu > .sf-with-ul > a { 
-					 padding-right: 20px!important;
-				 }
-	 			 #header-outer[data-lhe="animated_underline"] #top .sf-menu > .sf-with-ul:not([class*="button"]) > a { 
-					 padding-right: 10px!important;
-				 }
-         #header-outer[data-lhe="animated_underline"] #top .sf-menu > .sf-with-ul[class*="button"] > a { 
-					 padding-right: 26px!important;
-				 }
-				 #header-outer[data-lhe="default"][data-condense="true"][data-format="centered-menu-bottom-bar"].fixed-menu #top nav .sf-menu > .sf-with-ul > a { 
-					 padding-right: 17px!important;
-				 }#header-space { 
-		 height: 86px;
+		 #header-space { 
+		 height: 106px;
 	 }
 	 @media only screen and (max-width: 999px) {
 		 #header-space { 
